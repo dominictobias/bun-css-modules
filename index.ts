@@ -62,7 +62,7 @@ export function moduleCssLoader({
         styleObj.default = styleObj
 
         return {
-          default: { penny: 'a' },
+          default: styleObj,
           exports: styleObj,
           loader: 'object',
         }
